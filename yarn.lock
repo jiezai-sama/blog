@@ -655,6 +655,20 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-butterfly-clock-anzhiyu@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-clock-anzhiyu/-/hexo-butterfly-clock-anzhiyu-1.1.8.tgz#c124c2e24c611b229ed676f9f5b915a0a9678c19"
+  integrity sha512-fk9b7sv2qwKYc4aoxnQWW1gdpI4gbebNJFhFLfBxMShd+onq9MZw0Dhcn3nDiALbnu2GoHRHPk5PIJlaB2n3Qg==
+  dependencies:
+    pug "^3.0.0"
+
+hexo-butterfly-footer-beautify@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-footer-beautify/-/hexo-butterfly-footer-beautify-1.0.6.tgz#35de1351a9131b29f86237565c8adb34e4d2e21f"
+  integrity sha512-zGA0b1BgL0CTmh3mKOvSh5TY6o3HW8tt/Xnhr+8g+I0MrzDcaBUXx9Ci2jyZRIctgFHS/0pcWd/Ro0Db2py42w==
+  dependencies:
+    pug "^3.0.0"
+
 hexo-cli@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.0.tgz"
@@ -720,6 +734,14 @@ hexo-generator-index@^3.0.0:
   integrity sha512-83AuNN4cWdLVi//3ugR8E3kR6rrOwhXZt+hOCm1IjtIGj353/GlrtpMHpqZHU5kqipzj4miy9dweVdukXglVWw==
   dependencies:
     hexo-pagination "3.0.0"
+
+hexo-generator-search@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz#c4f35c8b8429355612dd1cdf5a18de3568166f99"
+  integrity sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
 
 hexo-generator-tag@^2.0.0:
   version "2.0.0"
@@ -800,10 +822,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-butterfly@^4.5.1:
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/hexo-theme-butterfly/-/hexo-theme-butterfly-4.5.1.tgz"
-  integrity sha512-gZQ0y0q27n52tAphsF5Nj5Uvihhr8uAIyjPvK+BnysZuLgnSgbbnIr1rresRIWygvNn/PA87wzDJpKAM2NhJ3A==
+hexo-theme-butterfly@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.6.1.tgz#d524180c969695b6013e598a603c78d2c83b8d51"
+  integrity sha512-qa/q2znq5H48AQOxgjZQGSlsBDP8znIr9RCPeDzjPSZOrO5LggmNaSnz9f34bPXzYHVmSOmm5p9J7bTbGbF0og==
   dependencies:
     hexo-renderer-pug "^3.0.0"
     hexo-renderer-stylus "^2.1.0"
@@ -1233,7 +1255,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nunjucks@^3.2.1, nunjucks@^3.2.3:
+nunjucks@^3.0.1, nunjucks@^3.2.1, nunjucks@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.3.tgz"
   integrity sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==
@@ -1460,9 +1482,9 @@ pug-walk@^2.0.0:
   resolved "https://registry.npmjs.org/pug-walk/-/pug-walk-2.0.0.tgz"
   integrity sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ==
 
-pug@^3.0.2:
+pug@^3.0.0, pug@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.npmjs.org/pug/-/pug-3.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/pug/-/pug-3.0.2.tgz#f35c7107343454e43bc27ae0ff76c731b78ea535"
   integrity sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw==
   dependencies:
     pug-code-gen "^3.0.2"
@@ -1776,9 +1798,9 @@ util-deprecate@^1.0.1:
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-utils-merge@1.0.1:
+utils-merge@1.0.1, utils-merge@^1.0.0:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
 vary@~1.1.2:
